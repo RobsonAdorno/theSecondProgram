@@ -2,4 +2,122 @@
 
 import UIKit
 
-var str = "Hello, playground"
+//var str = "Hello, playground"
+//
+////Int, Float, Double, String, Characterer, Bool
+//
+//var age:UInt = 89 // -> Unsigned Int, inteiros nao negativos
+//
+////Float -> 32bit
+//
+//var dolar: Float = 3.5
+//
+////Double -> 64bit
+//
+//let number = 10000.0000002
+//
+////Character
+//var gender: Character = "F"
+//
+//
+//let text = """
+//Fazendo um teste de interpolacao de Strings.
+//Verificando novos recursos do swift 4, bla bla bla.
+//
+//                FIM!!
+//"""
+//print(text)
+////----------------------------------Opcional-------------------------------------------------------
+//
+//var idade:Int? //-> Declarando uma opcional
+//idade = 2342734824834
+//print(idade!) // Desembrulhando a opcional (unwrapper), o risco de fazer isso é a aplicacao estourar, caso venha um nulo da opcional
+//
+////----------------------------------Opcional binding-------------------------------------------------------
+//
+//if let idadeCorreta = idade{
+//    print("Modo certo de operar uma opcional \(idadeCorreta)")
+//}else{
+//    print("Essa mensagem aparecerá caso a aplicacao retornar um nulo")
+//}
+//
+////----------------------------------Nil Coaliscing Operator-------------------------------------------------------
+//
+//let number:String = "578-A"
+//let addressNumber2 = Int(number) ?? 0
+//
+//print(addressNumber2)
+
+//Caso a constante seja 578 apenas, ele printa 578 porque ele consegue converter, caso seja 578-A, ele retornara 0
+
+//----------------------------------Implicit Unwrapped Optionals--------------------------------------------------------------
+//
+//var nome:String!
+//
+//print(nome)
+
+//Aqui vc garante que a variavel voltara algum resultado, nesse caso a aplicacao explodiria porque a String esta nula
+//----------------------------------Operators-------------------------------------------------------
+
+//Operadores Binario
+//var nome = "Robson" //Você tem uma variavel e uma atribuicao
+//var (name,age) = ("Robson", 23)
+//print (name, age)
+
+//Operadores Aritimeticos
+
+//Operadores Compostos: Atribui e opera ao mesmo tempo
+//var age1:Int?
+//var age2:Int?
+//
+//age1 += age2
+//age1-= age2
+//age1*= age2
+//age1/= age2
+//age1 %= age2
+
+//Operadores de comparacao: Fazem comparacao entre valores (Retornam sempre um Bool)
+//Maior que: >
+//Menor que: <
+//Menor ou Igual: <=
+//Maior ou Igual: >=
+//Diferente: !=
+//Operador de Igualdade: ==
+//Operador de atribuicao: =
+
+
+//Operadores Logico
+//OU : ||
+//E : &&
+
+//Operador ternário
+
+//var medio = 6.5
+//var resultEnding = (medio >= 7.0) ? "Aprovado":"Reprovado"
+//Ele é ternário porque faz atribuicao da e ainda da 2 opcoes de retorno da variavel
+//var number = 11
+//var verification = (number % 2 == 0) ? "Par":"Ímpar"
+
+//----------------------------------Estruturas Condicionais-------------------------------------------------------
+
+//var isVeryCool = true
+//
+//if isVeryCool{
+//    print("Vou pegar o jaco")
+//}else{
+//    print("Não preciso do jaco")
+//}
+
+//let atuacion = (isVeryCool == false) ? "Ta frio, vou pegar o jaco":"Nao preciso do Jaco"
+//print(atuacion)
+
+//var letter = "f"
+//
+//switch letter{
+//case "a", "e", "i", "o", "u":
+//    print("asdasd")
+//default:
+//    print("bla")
+//}
+
+
