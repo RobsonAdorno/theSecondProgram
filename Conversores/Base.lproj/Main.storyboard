@@ -94,6 +94,7 @@
                     <connections>
                         <outlet property="btnUnit1" destination="bOV-3V-g3s" id="El6-QL-G5e"/>
                         <outlet property="btnUnity2" destination="BWa-ue-NQ0" id="BRV-oj-zMd"/>
+                        <outlet property="lbUnity" destination="H5g-Xv-c9L" id="S1x-2C-5h9"/>
                         <outlet property="lblResult" destination="2ro-3E-L8K" id="DdC-sk-Tnd"/>
                         <outlet property="lblResultUnit" destination="Atr-JP-DHF" id="GwD-vW-Hg2"/>
                         <outlet property="textFiledValue" destination="Vo4-YE-FnL" id="t2o-ej-TSw"/>
