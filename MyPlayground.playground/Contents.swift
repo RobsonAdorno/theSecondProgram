@@ -183,23 +183,99 @@ import UIKit
 //
 
 
-//------truplas
+//------tuplas -> Noa eh uma collection mas ela agrupa tambem multiplos tipos em um unico valor composto
+
+//let address = ("AHSDHSUDA", 23, "asdasdd")
+//
+//print(address.1)
+//
+//
+//let address: (type:String, name:String, number:Int) = ("ASDSDA", "ASDASDASDDDDD", 34)
+//
+//print(address.name)
+//
+//let (tipo, nome, numero) = address
+//
+//print(numero)
+
+//-----------------------------------------Controle de Fluxo--------------------------------------------------------------------------
+
+//var vetor = [1: "DSADAD", 2: "DASDASDADDDDD", 3: "ëfeffefefe"]
+
+//for i in vetor{
+//    print(i.value)
+//}
+//
+//for (index,name) in vetor{
+//    print(index)
+//}
 
 
+//import Foundation
+//
+//var megaSena: [Int] = []
+//
+//while megaSena.count < 6{
+//    let number = Int(arc4random_uniform(61))
+//    if !megaSena.contains(number){
+//    megaSena.contains(number)
+//    megaSena.append(number)
+//}
+//}
+//print(megaSena.sorted())
+
+//var tentativas = 0
+//var numberRadom = 0
+//
+//repeat{
+//    tentativas += 1
+//    numberRadom = Int(arc4random_uniform(11))
+//}while numberRadom != 6
+//    print("Achou o 6 com \(tentativas) tentativas")
 
 
+//--------------------------------------------------Enumeradores(Enum)----------------------------------------------------------------
 
+ //Enum serve para fixar opcoes de uma variavel, tipo braco de uma pessoa
 
+//enum peopleArm: String {
+//    case rigth = "Direita",left = "Esquerda",ambidextrous = "AmbiDestro",nothing = "Nada"
+//}
+//var situationArmPeople = peopleArm.rigth
+//
+//
+//switch situationArmPeople {
+//case .rigth:
+//    print("This person is right handed")
+//case .left:
+//    print("This person is left handed")
+//case .ambidextrous:
+//    print("This person is ambidextrous")
+//case .nothing:
+//    print("This person no hand")
+//}
+//print(situationArmPeople.rawValue)
 
+//Valores associados (Associated Values)
 
+//
+//enum peopleArm {
+//    case rigth(String),left(String),ambidextrous(String),nothing(String)
+//}
+//var situationArmPeople:peopleArm = .left("Tradução: Essa pessoa é canhota")
+//
+//switch situationArmPeople {
+//case .rigth(let direita):
+//    print("This person is right handed \(direita)")
+//case .left(let esquerda):
+//    print("This person is left handed \(esquerda)")
+//case .ambidextrous(let ambidestro):
+//    print("This person is ambidextrous \(ambidestro)")
+//case .nothing(let nada):
+//    print("This person no hand \(nada)")
+////}
 
-
-
-
-
-
-
-
+//-----------------------------------------------------Struct----------------------------------------------
 
 
 
