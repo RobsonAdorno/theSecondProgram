@@ -119,5 +119,87 @@ import UIKit
 //default:
 //    print("bla")
 //}
+//-----------------------------------------Collections--------------------------------------------------------------------------
+//
+//
+//var vetor = ["ASD","DECA","ASFEF"]
+//
+//var teste:[Int] = [1,2,3,4,5]
+//teste[0...2] = [12,2,3]
+//
+//if let first = teste.first{
+//    //print(first)
+//}
+//
+//teste.insert(32, at: 5)
+//
+//if teste.contains(12){
+//    print("Tem esse numero")
+//}else{
+//    print("Nao tem")
+//}
+//
+//-----------------------------------------Dictionary Collection--------------------------------------------------------------------------
+//
+//var state = ["AC": "Acre",
+//    "BA": "Bahia",
+//    "CE": "CEARA"
+//]
+//print(state.count)
+//
+//let keys = Array(state.keys)
+//
+//print(keys)
+//
+//let value = Array(state.values)
+//print(value)
+//-----------------------------------------Set e Tuplas--------------------------------------------------------------------------
+
+//Collection nao ordenada de objetos do mesmo tipo, que nao podem se repetir
+
+//var movies:Set<String> = ["HUE", "ALA", "ESPACONAVE"]
+
+//movies.insert("AHHHHHH")
+//
+//movies.insert("AHHHHHH")
+////Aqui está o exemplo de que nao podem se repetir as mesmas strings
+////print(movies)
+//
+//for i in movies{
+//   // print(i)
+//}
+//
+//if movies.contains("ALA"){
+//    print("Tem o ALA")
+//}else{
+//    print("Nao tem nada meuu!!")
+//}
+
+//var myWifeMovies: Set<String> = ["EAEAEAEAE", "CARAACACACC", "HAHAHAHHAHAHAHAH", "AESEASFAEFA"]
+//
+//let favoriteMovies: Set<String> = movies.intersection(myWifeMovies)
+//let allMovies: Set<String> = movies.union(myWifeMovies)
+//let UAS : Set<String> = movies.subtracting(myWifeMovies)
+//
+
+
+//------truplas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
